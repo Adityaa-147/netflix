@@ -1,0 +1,378 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/backgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: #f5f5f5;
+}
+#menu{
+    display: none;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+#navbar #left h1{
+    margin: 0px;
+    font-size: 16px;
+}
+#navbar #right ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: lighter;
+    align-items: center;
+    margin: 0px;
+}
+#navbar #right ul li button{
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    width: 80px;
+    height: 38px;
+}
+#navbar #left h1 span{
+    font-weight: 100;
+}
+#body{
+    text-align: center;
+    margin-top: 90px;
+    color: #ffffff;
+}
+#body h1{
+   font-size: 60px;
+   margin-bottom: 0px;
+}
+#body p{
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+#body button{
+    color: #666666;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    margin-right: 20px;
+}
+#body #learn{
+     color: #ffffff;
+     background-color: transparent;
+     border: 2px solid gray;
+}
+#intro{
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 154px;
+    border-radius: 5px;
+    padding: 46px;
+}
+#intro h1{
+    color: #646464;
+    font-size: 39px;
+    font-weight: bold;
+}
+#intro p{
+    color: #777;
+    border-top: 2px solid #e5e5e5;
+    padding: 40px;
+    font-size: 18px;
+    width: 60%;
+    margin: auto;
+    font-weight: bolder;
+    padding-bottom: 62px;
+}
+#intro img{
+    width: 100%;
+}
+#signup{
+    background-color: #e89980;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 40px;
+}
+#signup h1{
+    font-size: 39px;
+    margin: 19px;
+    color: #f9e6dc;
+}
+#signup p{
+    font-size: 17px;
+    margin: 34px;
+    color:  #efd2cd;
+}
+#signup input{
+    padding: 0px 17px;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 13px;
+    width: 249px;
+    border-radius: 5px;
+    border: transparent;
+    margin-right: 13px;
+}
+#signup button{
+    padding: 12px;
+    width: 133px;
+    border-radius: 5px;
+    border: transparent;
+    color: #e899a1;
+    background-color: white;
+}
+::placeholder{
+  color: #ffffff;
+}
+#social{
+    background-color: #f0f0f0;
+    margin-top: -41px;
+    padding: 4em 0 6em 0;
+    text-align: center;
+    
+}
+#social #icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    font-size: 40px;
+    color: 
+    #c6c6c6;
+    margin-bottom: 30px;
+}
+#social  #icon i:hover{
+    color: gray;
+}
+#social #h4 h4{
+    display: inline;
+    font-size: 15px;
+    padding: 40px;
+}
+#icons{
+    background-color: white ;
+    width: 74%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 8px;
+    color: #6a6a6a;
+    padding: 20px 20px;
+}
+#icons div{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+   
+}
+#icons div h3{
+    font-size: 30px;
+}
+#icons div p{
+    font-size: 17px;
+}
+.fa.fa-bolt{
+    color: white;
+    background-color: #e89980;
+    font-size: 63px;
+    padding: 8px 24px;
+    border-radius: 100%;
+}
+.fa.fa-area-chart{
+    color: white;
+    background-color: #7fcdb8;
+    font-size: 38px;
+    padding: 25px 23px;
+    border-radius: 100%;
+}
+.fa.fa-cloud{
+    color: white;
+    background-color: #90b0ba;
+    font-size: 38px;
+    padding: 24px 24px;
+    border-radius: 100%;
+}
+.fa.fa-lock{
+    color: white;
+    background-color: #e5cb95;
+    font-size: 38px;
+    padding: 24px 29px;
+    border-radius: 100%;
+}
+#icons #div1{
+    border-right: 2px solid #e5e5e5;
+    padding: 0px 20px 20px 0px;
+    position: relative;
+    top: 2px;
+    left: 4px
+}
+#icons #div2{
+    border-bottom: 2px solid #e5e5e5;
+    padding: 0px 0px 20px 20px;
+}
+#icons #div3{
+    border-top: 2px solid #e5e5e5;
+    padding: 20px 20px 0px 0px;
+   
+}#icons #div4{
+    border-left: 2px solid #e5e5e5;
+    padding: 20px 0px 0px 20px;
+}
+#contain{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px
+}
+#card{
+    display: flex;
+    justify-content:  space-between;
+    width: 74%;
+    margin: auto;
+    color: #6a6a6a;
+    margin-top: 20px;
+    
+}
+#card div{
+    width: 45%;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+#card div img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#card div h1{
+    font-size: 25px;
+}
+#card div button{
+    width: 30%;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    color: #6a6a6a;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------mobile version------ */
+@media(max-width:600px){
+    body{
+         background-size: 190%;
+         background-position-x:center ;
+    }
+    #navbar{
+        display: none;
+    }
+    #menu{
+        display: inline-block;
+        color: white;
+        background-color: grey;
+        padding: 5px 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    #body{
+        width: 80%;
+        margin: auto;
+        margin-top: 0px;
+        
+    }
+    #body h1{
+        font-size: 30px;
+        
+     }
+     #body p{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    #body button{
+        
+        
+        width: 100%;
+        height: 48px;
+        border: none;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    #intro{
+         width: 100%;
+
+        margin-top: 36px;
+       
+    }
+    #intro h1{
+       
+        font-size: 25px;
+    }
+    #intro p{
+        font-size: 20px;
+        width: 90%;
+        margin: auto;
+    }
+    br{
+        display: none;
+    }
+    #signup{
+        margin-bottom: 40px;
+        padding: 7px;
+    }
+    #signup h1{
+        font-size: 25px;
+        margin: 16px;
+        
+    }
+    #signup p{
+        font-size: 14px;
+        margin-bottom: 29px;
+    }
+    #icons{
+
+        width: 113%;
+    }
+    #icons div{
+        width: 100%;
+    }
+    #icons #div1{
+        border: none;
+    }
+    #icons #div2{
+        border: none;
+    }
+    #icons #div3{
+        border: none;
+    }
+    #icons #div4{
+       border: none;
+    }
+}
